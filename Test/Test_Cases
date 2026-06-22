@@ -1,0 +1,14 @@
+# Password Strength Checker - Test Cases
+
+| # | Test Password | Expected Type | What It Tests |
+|---|---|---|---|
+| 1 | hello | Weak | Lowercase only, too short |
+| 2 | 123456 | Weak | Common password, digits only |
+| 3 | admin | Weak | Common password |
+| 4 | Hola123 | Medium | No special character |
+| 5 | abc12345 | Medium | No uppercase, no special |
+| 6 | ABC12345 | Medium | No lowercase, no special |
+| 7 | Password123 | Strong | Missing special character |
+| 8 | Hi@123 | Strong | Meets most rules |
+| 9 | MyPas1! | Strong | Meets all basic rules |
+| 10 | MySecurePass123! | Very Strong | Strong length and all rules |
